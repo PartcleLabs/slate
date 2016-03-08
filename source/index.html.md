@@ -51,8 +51,8 @@ You must replace <code>XXXXXX</code> with your personal API key.
 ```shell
   curl "http://beta.wurkiq.com/api/v1/create_unit" \
   -H "Authorization: XXXXXX" \
-  -d title="Man looking through binoculars" \
-  -d content_type="video" \
+  -d "title=Man looking through binoculars" \
+  -d "content_type=video" \
   -d "videos[]=http://1.videohost.mpg" \
   -d "videos[]=http://2.videohost.mpg"
 
